@@ -1,0 +1,49 @@
+@import './base/reset';
+@import './utils/mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.App {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .wrapper {
+        width: 90vw;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+
+        .projectsContainer{
+            background-color: rgb(245, 228, 98);
+            width: 50%;
+            height: 100%;
+        }
+
+        .aboutContainer{
+            background-color: rgb(204, 203, 198);
+            width: 50%;
+            height: 100%;
+        }
+        
+    }
+}
