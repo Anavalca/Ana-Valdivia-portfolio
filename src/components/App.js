@@ -11,6 +11,7 @@ class App extends React.Component {
       <div className="App">
         <Switch>
           <Route exact path="/">
+          
             <Landing/>
           </Route>
         </Switch>
