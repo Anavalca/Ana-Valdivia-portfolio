@@ -16,6 +16,7 @@ class App extends React.Component {
             {/* <div className='filter'></div> */}
             {/* <Computer/> */}
           <Landing/>
+          {/* <div className='footer'></div> */}
           </Route>
         </Switch>
       </div>

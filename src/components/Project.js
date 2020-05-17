@@ -4,9 +4,8 @@ const Project = (props) => {
     console.log(props)
     return (
         <React.Fragment>
-            <div className='imgContainer'>
-                {/* <img src={props.img} alt={props.name}></img> */}
-            </div>
+            {/* <div className='imgContainerSmall'></div> */}
+            <div className='imgContainer'></div>
             <div className='infoContainer'>
                 <span className='projectTitle'>{props.title}</span>
                 <span className='projectName'>{props.name}</span>

@@ -1,15 +1,39 @@
-  .listProject {
-      padding-top: 20px;
-      margin: 0 auto;
-      display: grid;
-      grid-gap: 1rem;
-
-      @include forPc {
-          grid-template-columns: repeat(5, 180px);
-          grid-gap: 2rem;
-      }
-
-
-
-
+.projectsContainer {
+  position: relative;
+  background-color: rgb(245, 228, 98);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow:auto;
+ 
+  .titleSection {
+    position: absolute;
+    top:25px;
+    left: 25px;
+    font-size:50px;
+    letter-spacing: 9px;
+    color: white;
+    // font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
   }
+
+
+  .listProject {
+    padding-top: 130px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+
+    @include forTablet {
+      grid-template-columns: repeat(3, 180px);
+      grid-template-rows: 265px;
+      grid-gap: 2rem;
+    }
+
+    @include forPc {
+      grid-template-columns: repeat(5, 180px);
+      grid-gap: 2rem;
+    }
+  }
+}

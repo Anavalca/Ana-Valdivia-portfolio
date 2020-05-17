@@ -6,9 +6,10 @@ const Landing = (props) => {
   return (
     <main className='wrapperMain'>
         <section className='projectsContainer'>
+          <h1 className='titleSection'>Projects</h1>
           <ProjectsList data={projects}/>
         </section>
-        {/* <section className='aboutContainer'></section> */}
+        <section className='aboutContainer'></section>
     </main>
   )
 }
