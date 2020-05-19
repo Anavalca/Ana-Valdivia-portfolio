@@ -1,38 +1,93 @@
 .projectsContainer {
-  position: relative;
   background-color: rgb(245, 228, 98);
-  background-size: 100%;
-  height: 100vh;
-  display: flex;
-  overflow:auto;
- 
-  .titleSection {
-    position: absolute;
-    top:25px;
-    left: 25px;
-    font-size:50px;
-    letter-spacing: 9px;
-    color: white;
-    // font-family: 'Alfa Slab One', cursive;
-    font-weight: 100;
+
+  @include forPc {
+    height: 100vh;
+    display: flex;
+
   }
 
-
-  .listProject {
-    padding-top: 130px;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
+  
+  .titleSectionContainer {
+    height: 9vh;
+    margin-left: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 22px;
 
     @include forTablet {
-      grid-template-columns: repeat(3, 180px);
-      grid-template-rows: 265px;
-      grid-gap: 2rem;
+      position: relative;
+      width: 15%;
+      height: 80%;
+      margin-left: 8%;
     }
 
-    @include forPc {
-      grid-template-columns: repeat(5, 180px);
-      grid-gap: 2rem;
+    .decorationTitle1 {
+      border-right: 5px solid whitesmoke;
+
+      height: 100%;
+      background-color: whitesmoke;
+
+      @include forTablet {
+        width: 15px;
+      }
+
     }
+
+    .titleProjects {
+      font-size: 1.1rem;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: row;
+      font-weight: 300;
+      letter-spacing: 12px;
+
+      @include forTablet {
+        font-size: 4.1rem;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 100;
+        letter-spacing: 0;
+      }
+
+    }
+
+    .decorationTitle2 {
+      border-bottom: 5px solid whitesmoke;
+      width: 100%;
+
+      @include forTablet {
+        border-bottom: 0;
+      }
+
+    }
+  }
+
+  .listProject {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include forTablet {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      width: 85%;
+      padding-top: 3%;
+    }
+
+    .projectLi {
+      margin: 20px;
+
+    }
+
+    @include forTablet {}
+
+    @include forPc {}
   }
 }

@@ -1,52 +1,124 @@
-.scroll-btn {
-	line-height: 18px;
-	font-size: 13px;
-	font-weight: normal;
-	color: #7f8c8d;
-	color: black;
-    letter-spacing: 2px;
-    padding-bottom: 30px;
-    
-    .mouse {
-        position: relative;
-        display: block;
-        width: 35px;
-        height: 55px;
-        margin: 0 auto 10px;
-        border: 1px solid black;
-        opacity: 0.9;
-        border-radius: 23px;
+.wrapperMain {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
-        span {
-            position: absolute;
+    .titleContainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+
+        .keyboard {
+            display: flex;
+            flex-direction: row;
+
+            .h,
+            .e,
+            .l,
+            .l2,
+            .o {
+                background-image: url('../../images/key.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: 50px;
+                height: 50px;
+                margin-right: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                @include forTablet{
+                    width: 100px;
+                    height: 100px;
+                }
+
+                span {
+                    font-size: 1.375rem;
+                    padding-bottom: 20%;
+
+                    @include forTablet {
+                        font-size: 1.875rem;
+                    }
+
+                }
+            }
+        }
+        .subtitle{
+            padding-top: 15px;
+            font-size: 0.93rem;
+            letter-spacing: 1px;
+            text-align: center;
+
+            @include forTablet{
+                padding-top: 16px;
+                font-size: 1.125rem;
+                letter-spacing: 5px;
+            }
+        }
+    }
+
+    // Icon Animation scroll
+    .scrollIcon {
+        line-height: 18px;
+        font-size: 0.75rem;
+        font-weight: normal;
+        color: #7f8c8d;
+        color: black;
+        letter-spacing: 2px;
+        padding-bottom: 25px;
+
+        @include forTablet{
+            font-size: 0.8125rem;
+        }
+        
+        .mouse {
+            position: relative;
             display: block;
-            top: 29%;
-            left: 50%;
-            width: 8px;
-            height: 8px;
-            margin: -4px 0 0 -4px;
-            background: black;
-            border-radius: 50%;
-            animation: ani-mouse 2.4s linear infinite;
-            
-            @keyframes ani-mouse {
-                0% {
-                opacity: 1;
+            width: 35px;
+            height: 55px;
+            margin: 0 auto 10px;
+            border: 1px solid black;
+            opacity: 0.9;
+            border-radius: 23px;
+    
+            span {
+                position: absolute;
+                display: block;
                 top: 29%;
-                }
-                20% {
-                opacity: 1;
-                top: 65%;
-                }
-                50% {
-                opacity: 0;
-                top: 65%;
-                }
-                100% {
-                opacity: 0;
-                top: 29%;
+                left: 50%;
+                width: 8px;
+                height: 8px;
+                margin: -4px 0 0 -4px;
+                background: black;
+                border-radius: 50%;
+                animation: ani-mouse 2.4s linear infinite;
+                
+                @keyframes ani-mouse {
+                    0% {
+                    opacity: 1;
+                    top: 29%;
+                    }
+                    20% {
+                    opacity: 1;
+                    top: 65%;
+                    }
+                    50% {
+                    opacity: 0;
+                    top: 65%;
+                    }
+                    100% {
+                    opacity: 0;
+                    top: 29%;
+                    }
                 }
             }
         }
     }
+    
 }
+
