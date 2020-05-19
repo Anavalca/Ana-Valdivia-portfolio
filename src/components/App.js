@@ -1,11 +1,19 @@
 import React from 'react';
 import '../stylesheets/App.scss';
-import Landing from '../components/Landing';
-import Computer from '../components/Computer';
-
+// import Computer from '../components/Computer';
+import ProjectSection from './ProjectSection';
+import projects from '../services/projects.json';
 import { Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    // this.renderCharacterDetail = this.renderCharacterDetail.bind(this);
+
+    this.state = {
+
+    }
+  }
 
   render() {
 
@@ -15,13 +23,38 @@ class App extends React.Component {
           <Route exact path="/">
             {/* <div className='filter'></div> */}
             {/* <Computer/> */}
-          <Landing/>
-          {/* <div className='footer'></div> */}
+            <main className='wrapperMain'>
+              <div className='titleContainer'>
+                <div className='keyboard'>
+                  <div className='h'>
+                    <span>H</span>
+                  </div>
+                  <div className='e'>
+                    <span>E</span>
+                  </div>
+                  <div className='l'>
+                    <span>L</span>
+                  </div>
+                  <div className='l2'>
+                    <span>L</span>
+                  </div>
+                  <div className='o'>
+                    <span>O</span>
+                  </div>
+                </div>
+                <div className='subtitle'> I´m Ana Valdivia. Frontend Developer Junior</div>
+              </div>
+            </main>
+            <ProjectSection data={projects} />
+            <section className='aboutContainer'></section>
+
+            {/* <div className='footer'></div> */}
           </Route>
         </Switch>
       </div>
     );
   }
 }
+
 
 export default App;
