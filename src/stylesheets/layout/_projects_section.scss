@@ -1,5 +1,6 @@
 .projectsContainer {
   background-color: rgb(245, 228, 98);
+  position: relative;
 
   @include forPc {
     height: 100vh;
@@ -11,17 +12,16 @@
   .titleSectionContainer {
     height: 9vh;
     margin-left: 8%;
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-bottom: 22px;
 
-    @include forTablet {
-      position: relative;
-      width: 15%;
+    @include forPc {
+      width: 9%;
       height: 80%;
-      margin-left: 8%;
+      margin-left: 5%;
+      
     }
 
     .decorationTitle1 {
@@ -30,7 +30,7 @@
       height: 100%;
       background-color: whitesmoke;
 
-      @include forTablet {
+      @include forPc {
         width: 15px;
       }
 
@@ -44,7 +44,7 @@
       font-weight: 300;
       letter-spacing: 12px;
 
-      @include forTablet {
+      @include forPc {
         font-size: 4.1rem;
         margin-left: 10px;
         display: flex;
@@ -59,7 +59,7 @@
       border-bottom: 5px solid whitesmoke;
       width: 100%;
 
-      @include forTablet {
+      @include forPc {
         border-bottom: 0;
       }
 
@@ -67,27 +67,25 @@
   }
 
   .listProject {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    @include forTablet {
+    @include forTablet{
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      justify-content: end;
-      width: 85%;
-      padding-top: 3%;
+      height: 70%;
+      margin: auto;
     }
 
-    .projectLi {
-      margin: 20px;
-
+    @include forPc {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 80%;
+      margin: auto;
     }
-
-    @include forTablet {}
-
-    @include forPc {}
   }
 }
