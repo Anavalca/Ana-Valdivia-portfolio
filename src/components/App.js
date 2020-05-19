@@ -42,13 +42,19 @@ class App extends React.Component {
                     <span>O</span>
                   </div>
                 </div>
-                <div className='subtitle'> I´m Ana Valdivia. Frontend Developer Junior</div>
+                <div className='subtitle'> I´m Ana Valdivia. Frontend Developer</div>
               </div>
+              <span class="scroll-btn">
+                {/* <a href="#"> */}
+                  <span class="mouse">
+                    <span>
+                    </span>
+                  </span>
+                {/* </a> */}
+                <p>scroll me</p>
+              </span>
             </main>
             <ProjectSection data={projects} />
-            <section className='aboutContainer'></section>
-
-            {/* <div className='footer'></div> */}
           </Route>
         </Switch>
       </div>

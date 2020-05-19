@@ -12,18 +12,14 @@
 
     font-size: 18px;
     font-family: $baseFont;
-    width: 100vw;
-    height: 100vh;
     background-color: white;
 
     .wrapperMain {
-        width: 100vw;
         height: 100vh;
         background-color: whitesmoke;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
 
         .titleContainer {
             position: absolute;
@@ -67,8 +63,13 @@
                 letter-spacing: 3px;
             }
         }
+
+        
     }
 
 
 
+
+
 }
+
