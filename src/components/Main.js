@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Project = (props) => {
+const Main = (props) => {
     console.log(props)
     return (
         <main className='wrapperMain'>
@@ -37,4 +37,4 @@ const Project = (props) => {
     )
 }
 
-export default Project;
+export default Main;

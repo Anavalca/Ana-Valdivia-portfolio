@@ -1,0 +1,50 @@
+.aboutContainer {
+    background-color: whitesmoke;
+  
+    @include forPc {
+
+      height: 100vh;
+      display: flex;
+  
+    }
+
+    .infoContainer {
+        width: 50%;
+        height: 100%;
+        background-color:whitesmoke;
+    }
+
+    .imgContainer {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+        .circle{
+            width: 630px;
+            height: 630px;
+            background-image: url('../../images/carrete.jpg');
+            background-position: center;
+            background-size: 100%;
+            background-attachment: fixed;
+            overflow: hidden;
+            border-radius: 63%;
+            
+            .titleAbout{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 50%;
+                font-size: 4.5rem;
+                font-weight: 100;
+                color: whitesmoke;
+            }
+
+        }
+
+
+    }
+}

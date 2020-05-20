@@ -1,9 +1,14 @@
 .projectsContainer {
-  background-color: rgb(245, 228, 98);
-  position: relative;
+  // background-color: rgb(245, 228, 98);
+  background-image: url('../../images/cassete_m2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
 
   @include forPc {
+    background-image: url('../../images/cassete.jpg');
     height: 100vh;
+    background-position: center;
     display: flex;
 
   }
@@ -19,7 +24,7 @@
 
     @include forPc {
       width: 9%;
-      height: 80%;
+      height: 55%;
       margin-left: 5%;
       
     }
@@ -45,9 +50,7 @@
       letter-spacing: 12px;
 
       @include forPc {
-        font-size: 4.1rem;
-        margin-left: 10px;
-        display: flex;
+        font-size: 2rem;
         flex-direction: column;
         font-weight: 100;
         letter-spacing: 0;
@@ -76,16 +79,13 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      height: 70%;
+      height: 0%;
       margin: auto;
     }
 
     @include forPc {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      height: 80%;
-      margin: auto;
+      height: 100%;
+      width: 60%;
     }
   }
 }
