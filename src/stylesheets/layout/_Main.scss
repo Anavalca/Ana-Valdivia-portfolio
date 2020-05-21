@@ -32,7 +32,7 @@
                 justify-content: center;
                 align-items: center;
 
-                @include forTablet{
+                @include forTablet {
                     width: 100px;
                     height: 100px;
                 }
@@ -48,16 +48,54 @@
                 }
             }
         }
-        .subtitle{
+
+        .subtitle {
             padding-top: 15px;
             font-size: 0.93rem;
             letter-spacing: 1px;
             text-align: center;
 
-            @include forTablet{
+            @include forTablet {
                 padding-top: 16px;
                 font-size: 1.125rem;
                 letter-spacing: 5px;
+            }
+        }
+    }
+
+    //Icons RRSS
+    .iconsRRSS {
+        position: absolute;
+        top: 0%;
+        right: 50%;
+        transform: translatex(50%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+
+        @include forPc {
+            position: fixed;
+            top: 50%;
+            right: 1%;
+            transform: translatey(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            height: 20px;
+            margin: 25px 14px 0 14px;
+
+            @include forPc{
+                height: 28px;
+                margin: 9px;
+
+            }
+
+            &:hover {
+                transform: scale(1.1);
             }
         }
     }
@@ -72,10 +110,10 @@
         letter-spacing: 2px;
         padding-bottom: 25px;
 
-        @include forTablet{
+        @include forTablet {
             font-size: 0.8125rem;
         }
-        
+
         .mouse {
             position: relative;
             display: block;
@@ -85,7 +123,7 @@
             border: 1px solid black;
             opacity: 0.9;
             border-radius: 23px;
-    
+
             span {
                 position: absolute;
                 display: block;
@@ -97,28 +135,30 @@
                 background: black;
                 border-radius: 50%;
                 animation: ani-mouse 2.4s linear infinite;
-                
+
                 @keyframes ani-mouse {
                     0% {
-                    opacity: 1;
-                    top: 29%;
+                        opacity: 1;
+                        top: 29%;
                     }
+
                     20% {
-                    opacity: 1;
-                    top: 65%;
+                        opacity: 1;
+                        top: 65%;
                     }
+
                     50% {
-                    opacity: 0;
-                    top: 65%;
+                        opacity: 0;
+                        top: 65%;
                     }
+
                     100% {
-                    opacity: 0;
-                    top: 29%;
+                        opacity: 0;
+                        top: 29%;
                     }
                 }
             }
         }
     }
-    
-}
 
+}
