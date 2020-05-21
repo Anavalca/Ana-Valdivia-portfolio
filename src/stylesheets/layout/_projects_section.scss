@@ -79,17 +79,21 @@
     justify-content: center;
     align-items: center;
 
+    a{
+      color: black;
+    }
+
     @include forTablet{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      width: 80%;
+      width: 90%;
       margin: auto;
     }
 
     @include forPc {
       height: 100%;
-      width: 60%;
+      width: 70%;
     }
   }
 }

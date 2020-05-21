@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './Project';
+import { Link } from 'react-router-dom';
 
 const ProjectSection = (props) => {
   return (
@@ -18,8 +19,9 @@ const ProjectSection = (props) => {
        </div>
        <div className='decorationTitle2'></div>
       </div>
-      <ul className="listProject">
+      <div className="listProject">
         {props.data.map((projectObject) =>
+        <Link key={projectObject.id} to={`/project/${projectObject.id}`}>
           <li className="projectLi" key={projectObject.id} id={`card_${projectObject.id}`}>
             <Project
               id={projectObject.id}
@@ -32,8 +34,9 @@ const ProjectSection = (props) => {
               githubUrl={projectObject.githubUrl}
             />
           </li>
+          </Link>
         )}
-      </ul>
+      </div>
     </section>
   )
 }

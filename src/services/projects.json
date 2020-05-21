@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "Rick & Morty",
-        "title":"Buscador de personajes",
+        "title":"Character finder",
         "img":"",
         "description":"Buscador de personajes de Rick y Morty 🔍👽",
         "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass", "Responsive-design"],
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Mother of Components",
-        "title":"Generador de tarjetas",
+        "title":"Card generator",
         "img":"",
         "description":"Generador de tarjetas electrónicas 🗡️ Game of Thrones",
         "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass", "Responsive-design"],
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "name": "Coronavirus TV",
-        "title":"Buscador de series",
+        "title":"TV shows finder",
         "img":"",
         "description":"Buscador de series",
         "tags": ["JavaScript", "HTML5", "CSS3", "Sass", "Responsive-design"],
@@ -42,7 +42,7 @@
     {
         "id": 5,
         "name": "Puzzle",
-        "title":"Web de contacto",
+        "title":"Contact web",
         "img":"",
         "description":"Página de contacto",
         "tags": ["HTML5", "CSS3", "Responsive-design"],

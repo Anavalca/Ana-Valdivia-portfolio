@@ -1,11 +1,20 @@
 import React from 'react';
+import CV from '../files/CV_Ana_Valdivia.pdf'
 
 const About = (props) => {
     console.log(props)
     return (
         <section className='aboutContainer'>
-            
-            <div className='infoContainer'></div>
+            <div className='infoContainer'>
+                <div className='line'></div>
+                <p className='description'>Love creative world</p> 
+                <p className='description'>
+                I have more than 4 years of experience in audiovisual comunications, graphic design and marketing.</p>
+                <p className='description'>               
+                Now i become to frontend developer</p>
+                <div className='line'></div>
+                <a className='buttonCV' href={CV} download="CV Ana Valdivia"> Download CV</a>
+            </div>
             <div className='imgContainer'>
                 <div className='circle'>
                     <span className='titleAbout' >About me</span>
