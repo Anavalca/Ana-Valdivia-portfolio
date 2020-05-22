@@ -18,7 +18,7 @@ const ProjectDetails = (props) => {
               </span>
             )}
           </ul>
-          <p>{props.project.description}</p>
+          <p className='descriptionjProject'>{props.project.description}</p>
           <div className='linkContainer'>
             <button className='buttonShowWeb' title='Web Page' href={props.project.url}>Web</button>
             <a title='Github' href={props.project.githubUrl} target='blank'>

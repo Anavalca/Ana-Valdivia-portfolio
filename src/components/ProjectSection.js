@@ -16,27 +16,28 @@ const ProjectSection = (props) => {
           <span>C</span>
           <span>T</span>
           <span>S</span>
-       </div>
-       <div className='decorationTitle2'></div>
+        </div>
+        <div className='decorationTitle2'></div>
       </div>
       <div className="listProject">
         {props.data.map((projectObject) =>
-        <Link key={projectObject.id} to={`/project/${projectObject.id}`}>
-          <li className="projectLi" key={projectObject.id} id={`card_${projectObject.id}`}>
-            <Project
-              id={projectObject.id}
-              name={projectObject.name}
-              title={projectObject.title}
-              description={projectObject.description}
-              img={projectObject.img}
-              tags={projectObject.tags}
-              url={projectObject.url}
-              githubUrl={projectObject.githubUrl}
-            />
-          </li>
+          <Link key={projectObject.id} to={`/project/${projectObject.id}`}>
+            <li className="projectLi" key={projectObject.id} id={`card_${projectObject.id}`}>
+              <Project
+                id={projectObject.id}
+                name={projectObject.name}
+                title={projectObject.title}
+                description={projectObject.description}
+                img={projectObject.img}
+                tags={projectObject.tags}
+                url={projectObject.url}
+                githubUrl={projectObject.githubUrl}
+              />
+            </li>
           </Link>
         )}
       </div>
+      <div className='lineRRSS'></div>
     </section>
   )
 }

@@ -1,6 +1,6 @@
 //DEVICES
 $tablet: 768px;
-$pc: 1024px;
+$pc: 1012px;
 
 @mixin forTablet {
   @media all and (min-width: $tablet) {

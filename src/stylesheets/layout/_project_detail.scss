@@ -17,6 +17,7 @@
 
         @include forPc{
             flex-direction: row;
+            align-items: initial;
         }
 
 
@@ -48,7 +49,7 @@
                 width: 50%;
                 height: 100%;
                 align-items: center;
-                // padding: 5% 3% 3% 0;
+                padding: 0;
             }
 
             .titleProject {
@@ -74,8 +75,8 @@
                 }
             }
 
-            p{
-                margin-top: 5%;
+            .descriptionjProject{
+                margin-top: 2%;
                 text-align: center;
             }
 
