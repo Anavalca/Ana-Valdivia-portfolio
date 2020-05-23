@@ -12,7 +12,7 @@ const ProjectDetails = (props) => {
   }
 
   const goNextProjectDetail = () => {
-    if (props.project.id < 6) {
+    if (props.project.id < 5) {
       return `/project/${props.project.id + 1}`
     }
   }
@@ -20,9 +20,7 @@ const ProjectDetails = (props) => {
   return (
     <div className="projectDetailPage">
       <div className='projectDetailContainer'>
-        <div className='mockupProjectP'>
-          <img alt='mockup' src={props.project.mockup} />
-        </div>
+        <img  className='mockupProject' alt='mockup' src={props.project.mockup} />
         <div className='infoProjectDetailContainer'>
           <p className='titleProject'>{props.project.name}</p>
           <ul className='tags'>

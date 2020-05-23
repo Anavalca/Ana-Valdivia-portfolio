@@ -16,6 +16,8 @@
         .keyboard {
             display: flex;
             flex-direction: row;
+            animation: bounceInDown;
+                animation-duration: 1s;
 
             .h,
             .e,
@@ -31,6 +33,11 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                &:hover{
+                animation: pulse;                ;
+                animation-duration: 1s;
+                }
 
                 @include forTablet {
                     width: 100px;
@@ -54,6 +61,9 @@
             font-size: 0.93rem;
             letter-spacing: 1px;
             text-align: center;
+            animation:bounceInRight;
+            animation-duration: 3s;
+
 
             @include forTablet {
                 padding-top: 16px;
