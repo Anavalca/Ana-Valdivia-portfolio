@@ -17,14 +17,6 @@
 
   }
 
-  .lineRRSS{
-    position: absolute;
-    height: 100%;
-    width: 70px;
-    right: 0;
-    background-color: whitesmoke;
-    z-index: 1;
-  }
 
   .titleSectionContainer {
     height: 9vh;
@@ -62,7 +54,7 @@
       letter-spacing: 12px;
 
       @include forPc {
-        font-size: 2.6rem;
+        font-size: 2.8rem;
         flex-direction: column;
         font-weight: 100;
         letter-spacing: 0;

@@ -6,8 +6,7 @@
     flex-direction: column;
 
     @include forPc{
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
     }
 
     .projectDetailContainer {
@@ -17,7 +16,8 @@
 
         @include forPc{
             flex-direction: row;
-            align-items: initial;
+            justify-content: space-around;
+            height: 90%;
         }
 
 
@@ -25,13 +25,18 @@
             width: 100%;
             height: 50%;
             margin-right: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             @include forPc{
                 width: 50%;
+                height: 100%;
+                margin-right: 0;
 
             }
 
             img {
-                width: 100%;
+                height: 120%;
             }
         }
 
@@ -49,19 +54,18 @@
                 width: 50%;
                 height: 100%;
                 align-items: center;
-                padding: 0;
+                padding: 0 6% 0 0;
             }
 
             .titleProject {
                 font-size: 2.2rem;
-                padding-bottom: 2%;
             }
 
             .tags {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                margin-top: 20px;
+                margin-top: 15px;
             
 
                 span {
@@ -75,42 +79,129 @@
                 }
             }
 
+            
             .descriptionjProject{
-                margin-top: 2%;
+                margin-bottom: 2%;
                 text-align: center;
+                line-height: 20px;
+
+                @include forPc{
+                    width: 77%;
+                }
+            }
+
+            .titleDescription{
+                padding-top: 1%;
             }
 
             .linkContainer {
-                margin-top: 20px;
+                margin-top: 10px;
                 display: flex;
                 flex-direction: row;
                 justify-content: start;
                 align-items: center;
+                font-size: 0.8rem;
 
                 .buttonShowWeb {
                     color: black;
                     cursor: pointer;
-                    font-size: 0.9rem;
-                    padding: 3px 12px 3px 6px;
+                    padding: 1px 12px 1px 12px;
                     border:none;
                     border-right: 1px solid black;
                     background-color: transparent;
                     margin-right:12px;
+                    display: flex;
+                    align-items: center;
 
-                    &:hover {
-                        border: 1px solid black;
+  
+                    .titleVisitWeb{
+                        color: white;
+                        padding-right: 6px;
                     }
 
+                    &:hover > * {
+                        color: black;
+                    }
+                    
+                    
+                    .iconWebsite{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                
+                .buttonGithub{
+                    display: flex;
+                    align-items: center;
+                    
+                    .iconGithub{
+                        width: 25px;
+                        height: 25px;
+    
+                    }
+                    .titleVisitGithub{
+                        color: white;
+                        padding-left: 6px;
+                    }
+                    &:hover > * {
+                        color: black;
+                    }
                 }
 
-                .iconGithub {
-                    width: 25px;
-                    height: 25px;
-                }
 
 
             }
         }
     }
+
+    .panelNavigation{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a{
+            color: black;
+        }
+
+        .prev{
+            padding-right: 12px;
+            border-right: 2px solid #FEC726;
+            
+            &:hover{
+                font-weight: 500;
+                border-bottom: 2px solid #FEC726;
+                border-right: 0;
+            }
+        }
+
+        .next{
+            padding-left: 12px;
+            border-left:  2px solid #FEC726;
+
+            &:hover{
+                font-weight: 500;
+                border-bottom: 2px solid #FEC726;
+                border-left: 0;
+            }
+        }
+
+        .iconHome{
+            padding: 0 10px 0 10px;
+
+            &:hover{
+                // border: 2px solid #FEC726;
+                color: white;
+                background-color: #FEC726;
+            }
+        }
+
+        i{
+            font-size: 13px;
+            color: #FEC726;
+            padding: 0 12px 0 12px;
+        }
+    }
+
 
 }

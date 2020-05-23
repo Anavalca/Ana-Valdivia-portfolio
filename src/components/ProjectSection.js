@@ -37,7 +37,6 @@ const ProjectSection = (props) => {
           </Link>
         )}
       </div>
-      <div className='lineRRSS'></div>
     </section>
   )
 }

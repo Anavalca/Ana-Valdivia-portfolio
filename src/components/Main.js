@@ -42,9 +42,9 @@ const Main = (props) => {
                     <img className='iconTwitter' alt='icon twitter' src={IconTwitter} />
                 </a>
             </div>
-            <span class="scrollIcon">
+            <span className="scrollIcon">
                 {/* <a href="#"> */}
-                <span class="mouse">
+                <span className="mouse">
                     <span>
                     </span>
                 </span>
