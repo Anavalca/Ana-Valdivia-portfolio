@@ -40,7 +40,7 @@
         "description":"TV shows finder generated with the data of an api.",
         "description2":"Offers the functionality to save and delete favourites and search shows by characters.",
         "tags": ["JavaScript", "API", "Flexbox","HTML5", "CSS3", "Sass"],
-        "url": "http://beta.adalab.es/modulo-2-evaluacion-final-Anavalca/",
+        "url": "https://beta.adalab.es/modulo-2-evaluacion-final-Anavalca/",
         "githubUrl":"https://github.com/Anavalca/Searcher-TV-Series-Javascript"
     },
     {
@@ -51,7 +51,7 @@
         "description":"Group website with contact form.",
         "description2":"Contains information about education and experience of team members.",
         "tags": ["HTML5", "CSS3", "Flexbox", "Responsive-design"],
-        "url": "http://beta.adalab.es/modulo-2-evaluacion-final-Anavalca/",
+        "url": "https://beta.adalab.es/modulo-2-evaluacion-final-Anavalca/",
         "githubUrl":"https://github.com/Anavalca/Searcher-TV-Series-Javascript"
     }
 ]
