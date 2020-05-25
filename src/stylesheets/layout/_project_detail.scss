@@ -13,22 +13,25 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: calc(100vh - 10vh);
 
         @include forPc{
+            height: calc(100vh - 7vh);
             flex-direction: row;
             justify-content: space-around;
-            height: 88%;
         }
         
         .mockupProject {
             width: 100%;
             margin-right: 5%;
+            transform: translateY(-5vh);
             
             // @include forTablet{
             //    height: auto;
             // }
 
             @include forPc{
+                transform: none;
                 width: 50%;
                 margin-right: 0;
             }
@@ -42,13 +45,14 @@
             align-items: center;
             padding: 0 12% 0 12%;
             z-index: 2;
-            transform: translateY(-40px);
+            transform: translateY(-13vh);
 
             @include forPc{
                 width: 50%;
                 height: 100%;
                 align-items: center;
                 padding: 3% 6% 0 0;
+                transform:none;
             }
 
             .titleProject {
@@ -153,6 +157,7 @@
     }
 
     .panelNavigation{
+       
         cursor: pointer;
         height: inherit;
         display: flex;
