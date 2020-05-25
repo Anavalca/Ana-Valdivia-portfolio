@@ -19,10 +19,14 @@
             justify-content: space-around;
             height: 88%;
         }
-
+        
         .mockupProject {
             width: 100%;
             margin-right: 5%;
+            
+            // @include forTablet{
+            //    height: auto;
+            // }
 
             @include forPc{
                 width: 50%;
@@ -31,7 +35,6 @@
         }
 
         .infoProjectDetailContainer {
-
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -161,28 +164,28 @@
         }
 
         .prev{
-            padding-right: 12px;
-            border-right: 2px solid #FEC726;
+            margin-right: 12px;
             
             &:hover{
                 font-weight: 500;
-                border-bottom: 2px solid #FEC726;
                 border-right: 0;
+                border-bottom: 2px solid #FEC726;
             }
         }
-
+        
         .next{
-            padding-left: 12px;
-            border-left:  2px solid #FEC726;
-
+            margin-left: 12px;
+            
             &:hover{
                 font-weight: 500;
                 border-bottom: 2px solid #FEC726;
                 border-left: 0;
             }
         }
-
+        
         .iconHome{
+            border-left: 2px solid #FEC726;
+            border-right: 2px solid #FEC726;
             padding: 0 10px 0 10px;
 
             &:hover{
