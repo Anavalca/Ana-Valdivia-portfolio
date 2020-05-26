@@ -17,7 +17,7 @@
             display: flex;
             flex-direction: row;
             animation: bounceInDown;
-                animation-duration: 1s;
+            animation-duration: 1s;
 
             .h,
             .e,
@@ -34,12 +34,17 @@
                 justify-content: center;
                 align-items: center;
 
-                &:hover{
-                animation: pulse;                ;
-                animation-duration: 1s;
+                &:hover {
+                    animation: pulse;
+                    animation-duration: 1s;
                 }
 
                 @include forTablet {
+                    width: 90px;
+                    height: 90px;
+                }
+
+                @include forPc {
                     width: 100px;
                     height: 100px;
                 }
@@ -57,15 +62,21 @@
         }
 
         .subtitle {
-            padding-top: 12px;
+            padding-top: 10px;
             font-size: 0.83rem;
             letter-spacing: 1px;
             text-align: center;
-            animation:bounceInRight;
+            animation: bounceInRight;
             animation-duration: 3s;
 
 
             @include forTablet {
+                padding-top: 11px;
+                font-size: 1.12rem;
+                letter-spacing: 4px;
+            }
+
+            @include forPc {
                 padding-top: 16px;
                 font-size: 1.125rem;
                 letter-spacing: 5px;
@@ -83,7 +94,7 @@
         flex-direction: row;
         align-items: center;
         z-index: 2;
-        
+
 
         @include forPc {
             position: fixed;
@@ -99,7 +110,7 @@
             height: 20px;
             margin: 25px 14px 0 14px;
 
-            @include forPc{
+            @include forPc {
                 height: 28px;
                 margin: 9px;
 
@@ -129,15 +140,16 @@
             position: relative;
             display: block;
             width: 28px;
-            height: 48px;
-            margin: 0 auto 10px;
+            height: 45px;
+            margin: 0 auto 7px;
             border: 1px solid black;
             opacity: 0.9;
             border-radius: 23px;
 
-            @include forTablet{
+            @include forTablet {
                 width: 35px;
                 height: 55px;
+                margin: 0 auto 10px;
             }
 
             span {
@@ -152,9 +164,16 @@
                 border-radius: 50%;
                 animation: ani-mouse 2.4s linear infinite;
 
-                @include forTablet{
+                @include forTablet {
                     width: 8px;
                     height: 8px;
+                    margin: -4px 0 0 -4px;
+                }
+
+                @include forXLpc {
+                    width: 8px;
+                    height: 8px;
+                    margin: -4px 0 0 -3px;
                 }
 
                 @keyframes ani-mouse {

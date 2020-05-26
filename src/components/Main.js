@@ -29,7 +29,7 @@ const Main = (props) => {
                 <div className='subtitle'> I´m Ana Valdivia. Frontend Developer</div>
             </div>
             <div className='iconsRRSS'>
-                <a title='mail' href="mailto:avc92j@gmail.com" target='blank'>
+                <a title='email' href="mailto:avc92j@gmail.com" target='blank'>
                     <img className='iconMail' alt='icon Email' src={IconMail} />
                 </a>
                 <a title='linkedin' href='https://www.linkedin.com/in/anavaldiviacano/' target='blank'>

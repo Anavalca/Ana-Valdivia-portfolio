@@ -1,9 +1,11 @@
 @import './base/reset.scss';
+@import './utils/variables.scss';
 @import './base/structure.scss';
 @import './utils/mixins.scss';
-@import './layout/computer.scss';
 @import './layout/mainpage.scss';
 @import './layout/projects_section.scss';
 @import './layout/project_cards.scss';
 @import './layout/about_section.scss';
 @import './layout/project_detail.scss';
+
+// @import './layout/computer.scss';

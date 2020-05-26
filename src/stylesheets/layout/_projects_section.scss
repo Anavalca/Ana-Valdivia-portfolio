@@ -1,12 +1,11 @@
 .projectsContainer {
-  // background-color: rgb(245, 228, 98);
   background-image: url('../../images/cassete_m2.jpg');
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
 
   @include forTablet{
-    height: 100vh;
+    height: 100%;
   }
 
   @include forPc {
@@ -14,13 +13,11 @@
     height: 100vh;
     background-position: center;
     display: flex;
-
   }
 
-
   .titleSectionContainer {
-    height: 9vh;
-    margin-left: 8%;
+    height: 10vh;
+    margin-left: 7%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -30,48 +27,49 @@
       width: 9%;
       height: 60%;
       margin-left: 5%;
-      
     }
 
     .decorationTitle1 {
-      border-right: 5px solid whitesmoke;
-
+      border-right: 5px solid $secondaryColor;
       height: 100%;
-      background-color: whitesmoke;
+      background-color: $secondaryColor;
 
       @include forPc {
         width: 15px;
       }
-
     }
 
     .titleProjects {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       margin-left: 10px;
       display: flex;
       flex-direction: row;
-      font-weight: 300;
-      letter-spacing: 12px;
+      color: $secondaryColor;
+      font-weight: 500;
+      letter-spacing: 13px;
+
+      @include forTablet{
+        font-size: 1.6rem;
+        font-weight: 600;
+        letter-spacing: 16px;
+      }
 
       @include forPc {
         font-size: 2.8rem;
         flex-direction: column;
         font-weight: 100;
         letter-spacing: 0;
-        color: whitesmoke;
         font-weight: 500;
       }
-
     }
 
     .decorationTitle2 {
-      border-bottom: 5px solid whitesmoke;
+      border-bottom: 5px solid $secondaryColor;
       width: 100%;
 
       @include forPc {
         border-bottom: 0;
       }
-
     }
   }
 
@@ -89,7 +87,7 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      width: 90%;
+      width: 98%;
       margin: auto;
     }
 

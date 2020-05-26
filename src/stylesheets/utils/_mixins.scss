@@ -1,6 +1,7 @@
 //DEVICES
 $tablet: 768px;
 $pc: 1012px;
+$XLpc: 1280px;
 
 @mixin forTablet {
   @media all and (min-width: $tablet) {
@@ -13,5 +14,8 @@ $pc: 1012px;
   }
 }
 
-//FONTS 
-$baseFont: 'Quicksand', sans-serif;
+@mixin forXLpc {
+  @media all and (min-width: $XLpc) {
+    @content;
+  }
+}
