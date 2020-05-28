@@ -169,10 +169,15 @@
     .panelNavigation {
 
         cursor: pointer;
+        
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 0.8rem;
+
+        &:active{
+            -webkit-tap-highlight-color: transparent;
+        }
 
         @include forMobile {
             font-size: 0.9rem;
