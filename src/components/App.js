@@ -10,7 +10,6 @@ import { Switch, Route } from 'react-router-dom';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    // this.renderProjectDetail = this.renderProjectDetail.bind(this);
 
     this.state = {
     }

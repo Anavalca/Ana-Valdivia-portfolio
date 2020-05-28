@@ -10,6 +10,8 @@
         justify-content: flex-start;
     }
 
+    
+
     .projectDetailContainer {
         display: flex;
         flex-direction: column;
@@ -167,6 +169,16 @@
     }
 
     .panelNavigation {
+
+        .hidden{
+            color: #cdcccc !important;
+            cursor:default;
+    
+            &:hover{
+                border-bottom: none !important;
+                font-weight: initial !important;
+            }
+        }
 
         cursor: pointer;
         
