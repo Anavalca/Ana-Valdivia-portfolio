@@ -7,11 +7,11 @@ const About = (props) => {
         <section className='aboutContainer'>
             <div className='infoContainer'>
                 <div className='line'></div>
-                <p className='description'>Love creative world</p> 
+                <p className='description'>Passionate about <span className='strongFont'>creative process</span> and design.</p> 
                 <p className='description'>
-                I have more than 4 years of experience in audiovisual comunications, graphic design and marketing.</p>
+                I have more than 4 years experience in audiovisual comunications, graphic design and marketing.</p>
                 <p className='description'>               
-                Now i become to frontend developer</p>
+                I'm an <span className='strongFont'>autodidactic</span> girl! My last challenge was to become a frontend developer. Now i love creating websites.</p>
                 <div className='line'></div>
                 <a className='buttonCV' href={CV} download="CV Ana Valdivia"> Download CV</a>
             </div>

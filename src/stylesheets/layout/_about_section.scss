@@ -35,9 +35,20 @@
             width: 55%;
             font-size: 0.9rem;
             padding: 6px 0 6px 0;
+            font-weight: 400;
 
             @include forTablet{
             font-size: 1.03rem;
+            }
+
+            .strongFont{
+                color: rgb(255, 195, 15);
+                font-size: 1rem;
+                font-weight: 500;
+
+                @include forTablet{
+                    font-size: 1.1rem;
+                }
             }
         }
 
