@@ -159,21 +159,19 @@
                 left: 50%;
                 width: 4px;
                 height: 4px;
-                margin: -4px 0 0 -2px;
+                transform: translate(-50%,-50%);
                 background: black;
                 border-radius: 50%;
                 animation: ani-mouse 2.4s linear infinite;
 
                 @include forTablet {
-                    width: 8px;
-                    height: 8px;
-                    margin: -4px 0 0 -4px;
+                    width: 6px;
+                    height: 6px;
                 }
 
                 @include forXLpc {
                     width: 8px;
                     height: 8px;
-                    margin: -4px 0 0 -3px;
                 }
 
                 @keyframes ani-mouse {

@@ -95,5 +95,9 @@
       height: 100%;
       width: 60%;
     }
+
+    @include forXLpc{
+      width: 50%;
+    }
   }
 }

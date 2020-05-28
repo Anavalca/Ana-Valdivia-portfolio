@@ -17,13 +17,15 @@
         margin-right:15px;
     }
 
-    &:hover{
-        transform: scale(1.06);
-    }
+    @include forPc{
+        &:hover{
+            transform: scale(1.06);
+        }
 
-    &:hover .imgContainer{
-        height: 100%;
-        opacity: 0.3;
+        &:hover .imgContainer{
+            height: 100%;
+            opacity: 0.3;
+        }
     }
 
     .imgContainer{
