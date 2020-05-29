@@ -93,11 +93,11 @@
 
     @include forPc {
       height: 100%;
-      width: 75%;
+      width: 80%;
     }
 
     @include forXLpc{
-      width: 50%;
+      width: 66%;
     }
   }
 }
