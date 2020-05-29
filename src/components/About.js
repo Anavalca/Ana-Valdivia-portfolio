@@ -2,7 +2,6 @@ import React from 'react';
 import CV from '../files/CV_Ana_Valdivia.pdf'
 
 const About = (props) => {
-    console.log(props)
     return (
         <section className='aboutContainer'>
             <div className='infoContainer'>
