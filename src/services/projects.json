@@ -17,7 +17,7 @@
         "mockup":"../images/mk_morty.jpg",
         "description":"Character Finder from the TV show Rick & Morty.",
         "description2":"A funny way to filter the characters obtained from an api.",
-        "tags": ["React", "JavaScript", "API", "Grid","HTML5", "CSS3", "Sass", "Responsive-design"],
+        "tags": ["React", "JavaScript", "API", "Grid", "Sass", "Responsive-design"],
         "url": "https://anavalca.github.io/Character-Searcher-Rick-Morty-React/",
         "githubUrl":"https://github.com/Anavalca/Character-Searcher-Rick-Morty-React"
     },
@@ -39,7 +39,7 @@
         "mockup":"../images/mk_coronavirus.jpg",
         "description":"TV shows finder generated with the data of an api.",
         "description2":"Offers the functionality to save and delete favourites and search shows by characters.",
-        "tags": ["JavaScript", "API", "Flexbox","HTML5", "CSS3", "Sass"],
+        "tags": ["JavaScript", "API", "DOM AVANZADO", "localstorage", "Flexbox", "Sass"],
         "url": "http://beta.adalab.es/modulo-2-evaluacion-final-Anavalca/",
         "githubUrl":"https://github.com/Anavalca/Searcher-TV-Series-API-Javascript"
     },
