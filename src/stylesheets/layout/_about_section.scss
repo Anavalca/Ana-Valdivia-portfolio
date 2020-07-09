@@ -7,23 +7,29 @@
 
 
     .arrowBack {
-        position: absolute;
-        bottom: 15px;
         width: 30px;
         height: 30px;
-        border-radius: 5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 16px;
-        cursor: pointer;
-        color: black;
+        position: absolute;
+        left: 18px;
+        bottom: 15px;
 
-        &:hover {
-            // background-color: #FEC726;
-            // color: whitesmoke;
-            transform: translateY(-5px);
+
+        @include forPc {
+            left: 50%;
+            border-radius: 5rem;
+            display: flex;
+            flex-direction:git push origin master column;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            cursor: pointer;
+            color: black;
+    
+            &:hover {
+                // background-color: #FEC726;
+                // color: whitesmoke;
+                transform: translateY(-5px);
+            }
         }
     }
 
