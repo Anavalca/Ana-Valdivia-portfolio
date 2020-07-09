@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.f0dbbb57.chunk.css",
-    "main.js": "./static/js/main.a892c844.chunk.js",
-    "main.js.map": "./static/js/main.a892c844.chunk.js.map",
+    "main.css": "./static/css/main.efe4b634.chunk.css",
+    "main.js": "./static/js/main.75838312.chunk.js",
+    "main.js.map": "./static/js/main.75838312.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.2afa580b.js",
     "runtime-main.js.map": "./static/js/runtime-main.2afa580b.js.map",
     "static/js/2.dbe93d3b.chunk.js": "./static/js/2.dbe93d3b.chunk.js",
     "static/js/2.dbe93d3b.chunk.js.map": "./static/js/2.dbe93d3b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7087943db41b8825395afe1b2700dea7.js": "./precache-manifest.7087943db41b8825395afe1b2700dea7.js",
+    "precache-manifest.4645379440ad3f1aff0fae639fc4e595.js": "./precache-manifest.4645379440ad3f1aff0fae639fc4e595.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.f0dbbb57.chunk.css.map": "./static/css/main.f0dbbb57.chunk.css.map",
+    "static/css/main.efe4b634.chunk.css.map": "./static/css/main.efe4b634.chunk.css.map",
     "static/js/2.dbe93d3b.chunk.js.LICENSE.txt": "./static/js/2.dbe93d3b.chunk.js.LICENSE.txt",
     "static/media/CV_Ana_Valdivia.pdf": "./static/media/CV_Ana_Valdivia.d0e97d60.pdf",
     "static/media/App.scss": "./static/media/rick.b71da660.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.2afa580b.js",
     "static/js/2.dbe93d3b.chunk.js",
-    "static/css/main.f0dbbb57.chunk.css",
-    "static/js/main.a892c844.chunk.js"
+    "static/css/main.efe4b634.chunk.css",
+    "static/js/main.75838312.chunk.js"
   ]
 }

@@ -4,8 +4,7 @@ import IconLinkedin from '../icons/linkedin.png';
 import IconGithub from '../icons/github.png';
 import IconTwitter from '../icons/twitter.png';
 
-const Main = (props) => {
-    console.log(props)
+const Main = () => {
     return (
         <main className='wrapperMain'>
             <div className='titleContainer'>
