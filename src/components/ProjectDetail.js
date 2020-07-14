@@ -12,7 +12,7 @@ const ProjectDetails = (props) => {
   }
 
   const goNextProjectDetail = () => {
-    if (props.project.id < 5) {
+    if (props.project.id < 6) {
 
       return `/project/${props.project.id + 1}`;
     }
@@ -55,8 +55,8 @@ const ProjectDetails = (props) => {
           <span className='iconHome'>Home</span>
         </Link>
         <Link to={goNextProjectDetail}>
-          <span className={`next ${id === 5 ? 'hidden' : ''}`}>next project</span>
-          <i className={`fas fa-chevron-right ${id === 5 ? 'hidden' : ''}`}></i>
+          <span className={`next ${id === 6 ? 'hidden' : ''}`}>next project</span>
+          <i className={`fas fa-chevron-right ${id === 6 ? 'hidden' : ''}`}></i>
         </Link>
       </div>
     </div >

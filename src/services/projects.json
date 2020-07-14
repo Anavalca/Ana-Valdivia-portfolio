@@ -53,5 +53,16 @@
         "tags": ["HTML5", "CSS3", "Flexbox", "Responsive-design"],
         "url": "http://beta.adalab.es/project-promo-i-module-1-team-2-afternoon/",
         "githubUrl":"https://github.com/Anavalca/Team-contact-page"
+    },
+    {
+        "id": 6,
+        "name": "Emparejados",
+        "title":"Card memory game",
+        "mockup":"../images/mk_cards.jpg",
+        "description":"Memory game based on matching cards.",
+        "description2":"Choose the level of difficulty and the topic theme. You also have a chronometer and a panel with the score.",
+        "tags": ["JavaScript", "DOM AVANZADO", "HTML5", "CSS3", "Responsive-design"],
+        "url": "https://anavalca.github.io/card-memory-game/",
+        "githubUrl":"https://github.com/Anavalca/card-memory-game"
     }
 ]
