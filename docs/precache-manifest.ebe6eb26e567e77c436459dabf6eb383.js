@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2fafc998873e669c66fc5bcd7f37b90",
+    "revision": "b823a85791c7d52d1055a3896b2392d8",
     "url": "./index.html"
   },
   {
-    "revision": "d6d56e1e984d22391847",
-    "url": "./static/css/main.574f2ec9.chunk.css"
+    "revision": "b339a10d2c183e853dec",
+    "url": "./static/css/main.cf44d935.chunk.css"
   },
   {
     "revision": "39ecbd1646a87ec1db0f",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.dbe93d3b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6d56e1e984d22391847",
-    "url": "./static/js/main.74a74045.chunk.js"
+    "revision": "b339a10d2c183e853dec",
+    "url": "./static/js/main.4750c898.chunk.js"
   },
   {
     "revision": "a062e1f0e1f924f559d3",
     "url": "./static/js/runtime-main.2afa580b.js"
   },
   {
-    "revision": "d0e97d60beb60587daf0a9a793b640dc",
-    "url": "./static/media/CV_Ana_Valdivia.d0e97d60.pdf"
+    "revision": "f34345e7668cf08645c870c36e73dff6",
+    "url": "./static/media/CV_ANA VALDIVIA CANO.f34345e7.pdf"
   },
   {
     "revision": "8ed6a25e02c193fcb69d1ad01a2951aa",
@@ -72,10 +72,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/mother.b3b5294e.jpg"
   },
   {
-    "revision": "e3e240272dda02bda721141052cf41f4",
-    "url": "./static/media/puzzle.e3e24027.jpg"
-  },
-  {
     "revision": "b71da660afb2127aaefac19ff15fbceb",
     "url": "./static/media/rick.b71da660.jpg"
   },
@@ -84,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/twitter.06e90b3e.png"
   },
   {
-    "revision": "2f36b9d2d878d3e290bbb02a0dd26e78",
-    "url": "./static/media/web.2f36b9d2.png"
+    "revision": "60504f2e1d04af4c1a3b1c2bb3130721",
+    "url": "./static/media/wedding.60504f2e.jpg"
   }
 ]);

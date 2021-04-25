@@ -1,68 +1,67 @@
 [
-    {
-        "id": 1,
-        "name": "Malaga Challenge",
-        "title":"Landing page",
-        "mockup":"../images/mk_malaga.jpg",
-        "description":"Finalist project in the hackathon of Malaga Tourism Challenge 2020.",
-        "description2":"Minimalist landing page where you can see the teaser of the campaign and the main characters.",
-        "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass","Responsive-design"],
-        "url": "https://anavalca.github.io/MalagaChallenge/",
-        "githubUrl":"https://github.com/Anavalca/MalagaChallenge"
-    },
-    {
-        "id": 2,
-        "name": "Rick & Morty",
-        "title":"Character finder",
-        "mockup":"../images/mk_morty.jpg",
-        "description":"Character Finder from the TV show Rick & Morty.",
-        "description2":"A funny way to filter the characters obtained from an api.",
-        "tags": ["React", "JavaScript", "API", "Grid", "Sass", "Responsive-design"],
-        "url": "https://anavalca.github.io/Character-Searcher-Rick-Morty-React/",
-        "githubUrl":"https://github.com/Anavalca/Character-Searcher-Rick-Morty-React"
-    },
-    {
-        "id": 3,
-        "name": "Mother of Components",
-        "title":"Card generator",
-        "mockup":"../images/mk_mother.jpg",
-        "description":"Card generator wiht dark mode inspired by Game of Thrones.",
-        "description2":"Personalize your card with colors, photo, pictures and your personal data through an interactive form. Also you can share the card in Twitter!",
-        "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass", "Responsive-design"],
-        "url": "https://anavalca.github.io/Card-Generator-Game-Of-Thrones-React/#/",
-        "githubUrl":"https://github.com/Anavalca/Card-Generator-Game-Of-Thrones-React"
-    },
-    {
-        "id": 4,
-        "name": "Coronavirus TV",
-        "title":"TV shows finder ",
-        "mockup":"../images/mk_coronavirus.jpg",
-        "description":"TV shows finder generated with the data of an api.",
-        "description2":"Offers the functionality to save and delete favourites and search shows by characters.",
-        "tags": ["JavaScript", "API", "DOM AVANZADO", "localstorage", "Flexbox", "Sass"],
-        "url": "http://beta.adalab.es/modulo-2-evaluacion-final-Anavalca/",
-        "githubUrl":"https://github.com/Anavalca/Searcher-TV-Series-API-Javascript"
-    },
-    {
-        "id": 5,
-        "name": "Puzzle",
-        "title":"Contact web",
-        "mockup":"../images/mk_puzzle.jpg",
-        "description":"Group website with contact form.",
-        "description2":"Contains information about education and experience of team members.",
-        "tags": ["HTML5", "CSS3", "Flexbox", "Responsive-design"],
-        "url": "http://beta.adalab.es/project-promo-i-module-1-team-2-afternoon/",
-        "githubUrl":"https://github.com/Anavalca/Team-contact-page"
-    },
-    {
-        "id": 6,
-        "name": "Emparejados",
-        "title":"Cards memory game",
-        "mockup":"../images/mk_cards.jpg",
-        "description":"Memory game based on matching cards.",
-        "description2":"Choose the level of difficulty and the topic theme. You also have a chronometer and a panel with the score.",
-        "tags": ["JavaScript", "DOM AVANZADO", "HTML5", "CSS3", "Responsive-design"],
-        "url": "https://anavalca.github.io/cards-memory-game/",
-        "githubUrl":"https://github.com/Anavalca/cards-memory-game"
-    }
+  {
+    "id": 1,
+    "name": "Wedding website",
+    "title":"SPA",
+    "mockup":"../images/mk_wedding.jpg",
+    "description":"Professional wedding website.",
+    "description2":"It includes information about the wedding, carousel galery, contact formulary, location link and a countdown timer.",
+    "tags": ["React", "Hooks", "JavaScript", "Leaftet", "SPA", "Sass","Responsive-design"],
+    "url": "https://boda-anatere-y-antonio.netlify.app/"
+  },
+  {
+      "id": 2,
+      "name": "Malaga Challenge",
+      "title":"Landing page",
+      "mockup":"../images/mk_malaga.jpg",
+      "description":"Finalist project in the hackathon of Malaga Tourism Challenge 2020.",
+      "description2":"Minimalist landing page where you can see the teaser of the campaign and the main characters.",
+      "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass","Responsive-design"],
+      "url": "https://anavalca.github.io/MalagaChallenge/",
+      "githubUrl":"https://github.com/Anavalca/MalagaChallenge"
+  },
+  {
+      "id": 3,
+      "name": "Rick & Morty",
+      "title":"Character finder",
+      "mockup":"../images/mk_morty.jpg",
+      "description":"Character Finder from the TV show Rick & Morty.",
+      "description2":"A funny way to filter the characters obtained from an api.",
+      "tags": ["React", "JavaScript", "API", "Grid", "Sass", "Responsive-design"],
+      "url": "https://anavalca.github.io/Character-Searcher-Rick-Morty-React/",
+      "githubUrl":"https://github.com/Anavalca/Character-Searcher-Rick-Morty-React"
+  },
+  {
+      "id": 4,
+      "name": "Mother of Components",
+      "title":"Card generator",
+      "mockup":"../images/mk_mother.jpg",
+      "description":"Card generator wiht dark mode inspired by Game of Thrones.",
+      "description2":"Personalize your card with colors, photo, pictures and your personal data through an interactive form. Also you can share the card in Twitter!",
+      "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass", "Responsive-design"],
+      "url": "https://anavalca.github.io/Card-Generator-Game-Of-Thrones-React/#/",
+      "githubUrl":"https://github.com/Anavalca/Card-Generator-Game-Of-Thrones-React"
+  },
+  {
+      "id": 5,
+      "name": "Emparejados",
+      "title":"Cards memory game",
+      "mockup":"../images/mk_cards.jpg",
+      "description":"Memory game based on matching cards.",
+      "description2":"Choose the level of difficulty and the topic theme. You also have a chronometer and a panel with the score.",
+      "tags": ["JavaScript", "DOM AVANZADO", "HTML5", "CSS3", "Responsive-design"],
+      "url": "https://anavalca.github.io/cards-memory-game/",
+      "githubUrl":"https://github.com/Anavalca/cards-memory-game"
+  },
+  {
+      "id": 6,
+      "name": "Coronavirus TV",
+      "title":"TV shows finder ",
+      "mockup":"../images/mk_coronavirus.jpg",
+      "description":"TV shows finder generated with the data of an api.",
+      "description2":"Offers the functionality to save and delete favourites and search shows by characters.",
+      "tags": ["JavaScript", "API", "DOM AVANZADO", "localstorage", "Flexbox", "Sass"],
+      "url": "https://anavalca.github.io/Searcher-TV-Series-API-Javascript/",
+      "githubUrl":"https://github.com/Anavalca/Searcher-TV-Series-API-Javascript"
+  }
 ]

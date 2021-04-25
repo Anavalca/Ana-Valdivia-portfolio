@@ -114,9 +114,9 @@
                     cursor: pointer;
                     padding: 1px 12px 1px 12px;
                     border: none;
-                    border-right: 1px solid black;
+                  
                     background-color: transparent;
-                    margin-right: 12px;
+                   
                     display: flex;
                     align-items: center;
 
@@ -144,10 +144,12 @@
                 .buttonGithub {
                     display: flex;
                     align-items: center;
+                    padding-left: 12px;
+                    border-left: 1px solid black;
 
                     .iconGithub {
-                        width: 25px;
-                        height: 25px;
+                        width: 27px;
+                        height: 27px;
 
                     }
 
