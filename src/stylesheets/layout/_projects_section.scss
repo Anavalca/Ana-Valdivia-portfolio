@@ -74,30 +74,23 @@
   }
 
   .listProject {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 
     a{
       color: black;
+      display: flex;
+      justify-content: center;
     }
 
     @include forTablet{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 98%;
+      grid-template-columns: 1fr 1fr;
       margin: auto;
     }
 
-    @include forPc {
-      height: 100%;
-      width: 75%;
-    }
-
-    @include forXLpc{
-      width: 66%;
+    @include forPc{
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 }
