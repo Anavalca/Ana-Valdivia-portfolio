@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bac3b45b.chunk.css",
+    "main.js": "./static/js/main.8fac893b.chunk.js",
+    "main.js.map": "./static/js/main.8fac893b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.2afa580b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.2afa580b.js.map",
+    "static/js/2.dbe93d3b.chunk.js": "./static/js/2.dbe93d3b.chunk.js",
+    "static/js/2.dbe93d3b.chunk.js.map": "./static/js/2.dbe93d3b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.a3de006bdfde555bfc009ec5735b3a9a.js": "./precache-manifest.a3de006bdfde555bfc009ec5735b3a9a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.bac3b45b.chunk.css.map": "./static/css/main.bac3b45b.chunk.css.map",
+    "static/js/2.dbe93d3b.chunk.js.LICENSE.txt": "./static/js/2.dbe93d3b.chunk.js.LICENSE.txt",
+    "static/media/CV_ANA_VALDIVIA_CANO.pdf": "./static/media/CV_ANA_VALDIVIA_CANO.ce8b9f00.pdf",
+    "static/media/App.scss": "./static/media/wedding.60504f2e.jpg",
+    "static/media/github.png": "./static/media/github.37e697d7.png",
+    "static/media/mail.png": "./static/media/mail.6c368d43.png",
+    "static/media/twitter.png": "./static/media/twitter.06e90b3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2afa580b.js",
+    "static/js/2.dbe93d3b.chunk.js",
+    "static/css/main.bac3b45b.chunk.css",
+    "static/js/main.8fac893b.chunk.js"
+  ]
+}
