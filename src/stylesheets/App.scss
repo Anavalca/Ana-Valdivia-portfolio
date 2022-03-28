@@ -8,4 +8,6 @@
 @import './layout/about_section.scss';
 @import './layout/project_detail.scss';
 
-// @import './layout/computer.scss';
+html {
+  scroll-behavior: smooth;
+}
