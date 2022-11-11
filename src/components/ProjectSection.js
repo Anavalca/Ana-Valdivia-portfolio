@@ -1,10 +1,11 @@
 import React from 'react';
 import Project from './Project';
 import { Link } from 'react-router-dom';
+import projects from '../services/projects.json';
 
-const ProjectSection = (props) => {
+const ProjectSection = () => {
   return (
-    <section className='projectsContainer'>
+    <section className='projectsContainer' id='ProjectSection' >
       <div className='titleSectionContainer'>
         <div className='decorationTitle1'></div>
         <div className='titleProjects'>
@@ -20,18 +21,18 @@ const ProjectSection = (props) => {
         <div className='decorationTitle2'></div>
       </div>
       <div className="listProject">
-        {props.data.map((projectObject) =>
-          <Link key={projectObject.id} to={`/project/${projectObject.id}`}>
-            <li className="projectLi" key={projectObject.id} id={`card_${projectObject.id}`}>
+        {projects.map((project) =>
+          <Link key={project.id} to={`/project/${project.id}`}>
+            <li className="projectLi" key={project.id} id={`card_${project.id}`}>
               <Project
-                id={projectObject.id}
-                name={projectObject.name}
-                title={projectObject.title}
-                description={projectObject.description}
-                img={projectObject.img}
-                tags={projectObject.tags}
-                url={projectObject.url}
-                githubUrl={projectObject.githubUrl}
+                id={project.id}
+                name={project.name}
+                title={project.title}
+                description={project.description}
+                img={project.img}
+                tags={project.tags}
+                url={project.url}
+                githubUrl={project.githubUrl}
               />
             </li>
           </Link>

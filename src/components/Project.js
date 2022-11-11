@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Project = (props) => {
-    console.log(props)
     return (
         <React.Fragment>
             <div className='imgContainer'></div>

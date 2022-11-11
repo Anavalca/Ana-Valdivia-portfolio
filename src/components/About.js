@@ -20,7 +20,7 @@ const About = () => {
                 <a className='buttonCV' href={CV} download="CV Ana Valdivia"> Download CV</a>
             </div>
             <div title='go home' onClick={handleScroll}>
-                <i class="arrowBack fas fa-chevron-up"></i>
+                <i className="arrowBack fas fa-chevron-up"></i>
             </div>
             <div className='imgContainer'>
                 <div className='circle'>
