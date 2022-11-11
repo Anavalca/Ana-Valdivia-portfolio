@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.bac3b45b.chunk.css",
-    "main.js": "./static/js/main.8fac893b.chunk.js",
-    "main.js.map": "./static/js/main.8fac893b.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.2afa580b.js",
-    "runtime-main.js.map": "./static/js/runtime-main.2afa580b.js.map",
-    "static/js/2.dbe93d3b.chunk.js": "./static/js/2.dbe93d3b.chunk.js",
-    "static/js/2.dbe93d3b.chunk.js.map": "./static/js/2.dbe93d3b.chunk.js.map",
+    "main.css": "./static/css/main.e31c5ad1.css",
+    "main.js": "./static/js/main.febfcd1f.js",
+    "static/media/cards.jpg": "./static/media/cards.e045b10ee84af133fe97.jpg",
+    "static/media/malaga.jpg": "./static/media/malaga.66e27ed96f9fc838575a.jpg",
+    "static/media/coronavirus.jpg": "./static/media/coronavirus.fcd250e0744886b5851a.jpg",
+    "static/media/mother.jpg": "./static/media/mother.28e741cadb723fad0057.jpg",
+    "static/media/carrete_Pc.jpg": "./static/media/carrete_Pc.e5902c6ce41cc455dd03.jpg",
+    "static/media/CV_ANA_VALDIVIA_CANO.pdf": "./static/media/CV_ANA_VALDIVIA_CANO.1c3f4488f8b6e691fa7d.pdf",
+    "static/media/rick.jpg": "./static/media/rick.3363538446518451c5a7.jpg",
+    "static/media/cassete.jpg": "./static/media/cassete.dcf1588526fabf052137.jpg",
+    "static/media/wedding.jpg": "./static/media/wedding.49f5c8e8fcf777de218e.jpg",
+    "static/media/cassete_m2.jpg": "./static/media/cassete_m2.b96183e7090dde8c7b82.jpg",
+    "static/media/carrete_Tablet.jpg": "./static/media/carrete_Tablet.79e4d48c7be6e4df3ef0.jpg",
+    "static/media/carrete_m.jpg": "./static/media/carrete_m.3bc4cf69eb2396fb5d6f.jpg",
+    "static/media/mail.png": "./static/media/mail.20309013a2aea29d25af.png",
+    "static/media/github.png": "./static/media/github.235f035f3a7a91123283.png",
+    "static/media/twitter.png": "./static/media/twitter.9cf0504a8ad010f4edf2.png",
     "index.html": "./index.html",
-    "precache-manifest.a3de006bdfde555bfc009ec5735b3a9a.js": "./precache-manifest.a3de006bdfde555bfc009ec5735b3a9a.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.bac3b45b.chunk.css.map": "./static/css/main.bac3b45b.chunk.css.map",
-    "static/js/2.dbe93d3b.chunk.js.LICENSE.txt": "./static/js/2.dbe93d3b.chunk.js.LICENSE.txt",
-    "static/media/CV_ANA_VALDIVIA_CANO.pdf": "./static/media/CV_ANA_VALDIVIA_CANO.ce8b9f00.pdf",
-    "static/media/App.scss": "./static/media/wedding.60504f2e.jpg",
-    "static/media/github.png": "./static/media/github.37e697d7.png",
-    "static/media/mail.png": "./static/media/mail.6c368d43.png",
-    "static/media/twitter.png": "./static/media/twitter.06e90b3e.png"
+    "main.e31c5ad1.css.map": "./static/css/main.e31c5ad1.css.map",
+    "main.febfcd1f.js.map": "./static/js/main.febfcd1f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.2afa580b.js",
-    "static/js/2.dbe93d3b.chunk.js",
-    "static/css/main.bac3b45b.chunk.css",
-    "static/js/main.8fac893b.chunk.js"
+    "static/css/main.e31c5ad1.css",
+    "static/js/main.febfcd1f.js"
   ]
 }
