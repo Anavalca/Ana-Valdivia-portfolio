@@ -1,6 +1,6 @@
 import React from 'react';
-import IconGithub from '../icons/github.png';
-import IconWebsite from '../icons/web2.png';
+import GithubIcon from '../icons/github.png';
+import WebsiteIcon from '../icons/web2.png';
 import projects from '../services/projects.json';
 import { Link, useParams } from 'react-router-dom';
 
@@ -29,11 +29,11 @@ const ProjectDetails = () => {
           <div className='linkContainer'>
             <a className='buttonShowWeb' title='Website' href={url} target='blank'>
               <span className='titleVisitWeb'>Visit website</span>
-              <img className='iconWebsite' alt='icon website' src={IconWebsite} />
+              <img className='iconWebsite' alt='website icon' src={WebsiteIcon} />
             </a>
             {githubUrl && (
               <a className='buttonGithub' title='Github' href={githubUrl} target='blank'>
-                <img className='iconGithub' alt='icon github' src={IconGithub} />
+                <img className='iconGithub' alt='github icon ' src={GithubIcon} />
                 <span className='titleVisitGithub'>Github repository</span>
               </a>
             )}
