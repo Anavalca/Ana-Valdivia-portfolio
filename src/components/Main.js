@@ -1,7 +1,7 @@
 import React from 'react';
 import IconMail from '../icons/mail.png';
 import IconLinkedin from '../icons/linkedin.png';
-import IconGithub from '../icons/git.png';
+import IconGithub from '../icons/pepito.png';
 // import IconTwitter from '../icons/twitter.png';
 
 const Main = () => {

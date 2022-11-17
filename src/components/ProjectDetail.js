@@ -1,5 +1,5 @@
 import React from 'react';
-import GithubIcon from '../icons/git.png';
+import GithubIcon from '../icons/pepito.png';
 import WebsiteIcon from '../icons/web2.png';
 import projects from '../services/projects.json';
 import { Link, useParams } from 'react-router-dom';
