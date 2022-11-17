@@ -34,8 +34,8 @@
   },
   {
       "id": 4,
-      "name": "Emparejados",
-      "title":"Cards memory game",
+      "name": "Cards memory game",
+      "title":"GAME",
       "mockup":"../images/mk_cards.jpg",
       "description":"Memory game based on matching cards.",
       "description2":"Choose the level of difficulty and the topic theme. You also have a chronometer and a panel with the score.",

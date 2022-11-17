@@ -13,7 +13,6 @@
   @include forPc {
     background-image: url('../../images/cassete.jpg');
     height: auto;
-    min-height: 480px;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -100,7 +99,6 @@
       justify-content: center;
 
       &:hover{
-        transform: scale(1.1);
         img{
           opacity:1;
         }
@@ -111,14 +109,14 @@
     @include forTablet {
       grid-template-columns: 1fr 1fr;
       margin: 3rem 7rem 1rem 7rem;
+      grid-gap: 5px;
     }
 
     @include forPc {
-      width: 80%;
-      display: flex;
-      justify-content: center;
+      grid-template-columns: 1fr 1fr;
       margin: 0;
-      margin-left: 15%;
+      margin-left: 10%;
+      margin-top: 8rem,
     }
   }
 
@@ -132,7 +130,7 @@
 
     @include forPc {
       margin-top: 30px;
-      margin-left: 15%;
+      margin-left: 10%;
     }
 
     &:hover{

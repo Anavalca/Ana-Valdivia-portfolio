@@ -11,15 +11,15 @@
   @include forTablet {
     flex-direction: column;
     height: auto;
+    align-items: flex-start;
     padding: 15px;
-    width: 250px;
+    width: auto;
+    border-radius: 0;
   }
 
   @include forPc {
-    width: 160px;
     margin: 5px;
   }
-
 
   .imgContainer {
     width: auto;
@@ -27,7 +27,7 @@
     margin: 8px;
 
     @include forTablet {
-      width: 160px;
+      width: 210px;
       height: auto;
       margin: 0 0 12px 0;
       opacity: 0.5;
@@ -39,6 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    
 
 
     .projectTitle {
