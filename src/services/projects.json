@@ -4,8 +4,8 @@
     "name": "Wedding website",
     "title":"SPA",
     "mockup":"../images/mk_sunWedding.jpg",
-    "description":"Professional wedding website.",
-    "description2":"It includes information about the wedding, carousel galery, contact formulary, location link and a countdown timer.",
+    "description":"Professional design wedding website that contains information about the event.",
+    "description2":"It includes a countdown timer, location popup with map, hotel filter and a contact formulary.",
     "tags": ["React", "JavaScript", "Taildwind CSS", "Leaftet", "AOS" ,"Responsive-design"],
     "url": "https://bodacristinaycarlos.netlify.app/",
     "githubUrl":"https://github.com/Anavalca/sun-wedding"
