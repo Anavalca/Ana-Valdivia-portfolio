@@ -1,9 +1,10 @@
 import React from 'react';
+import GithubIcon from '../icons/github.png';
 import WebsiteIcon from '../icons/web2.png';
 import projects from '../services/projects.json';
 import { Link, useParams } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ProjectDetails = () => {
   const { projectId } = useParams();
@@ -34,8 +35,8 @@ const ProjectDetails = () => {
             </a>
             {githubUrl && (
               <a className='buttonGithub' title='Github' href={githubUrl} target='blank'>
-                <FontAwesomeIcon className='iconGithub' alt='github icon' icon={faGithub} />
-                {/* <img className='iconGithub' alt='github icon' src={GithubIcon} /> */}
+                {/* <FontAwesomeIcon className='iconGithub' alt='github icon' icon={faGithub} /> */}
+                <img className='iconGithub' alt='github icon' src={GithubIcon} />
                 <span className='titleVisitGithub'>Github repository</span>
               </a>
             )}

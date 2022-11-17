@@ -12,12 +12,14 @@
 
   @include forPc {
     background-image: url('../../images/cassete.jpg');
-    height: 70vh;
+    height: auto;
+    min-height: 480px;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 2rem 0 2rem 0;
   }
 
   .titleSectionContainer {
@@ -32,7 +34,6 @@
       position: absolute;
       top: 30px;
       left: 5%;
-      // width: 9%;
       height: 100px;
       margin-left: 5%;
     }
@@ -89,8 +90,8 @@
   .listProject {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 30px;
-    margin: 40px 0 40px 0;
+    grid-gap: 20px;
+    margin: 40px 0 20px 0;
     
 
     a {
@@ -109,14 +110,14 @@
 
     @include forTablet {
       grid-template-columns: 1fr 1fr;
+      margin: 3rem 7rem 1rem 7rem;
     }
 
     @include forPc {
-      width: 60%;
+      width: 80%;
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      grid-gap: 0px;
+      margin: 0;
       margin-left: 15%;
     }
   }
@@ -130,6 +131,7 @@
     margin-bottom: 30px;
 
     @include forPc {
+      margin-top: 30px;
       margin-left: 15%;
     }
 
