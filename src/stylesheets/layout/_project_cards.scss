@@ -1,112 +1,115 @@
-.projectLi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    background-color: whitesmoke;
-    width: 240px;
-    height: 400px;
-    margin:30px;
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+// .projectLi {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   cursor: pointer;
+//   position: relative;
+//   background-color: whitesmoke;
+//   width: 240px;
+//   height: 400px;
+//   margin: 30px;
+//   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+//   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
 
-    @include forTablet{
-        width: 200px;
-        height: 230px;
-        margin-right:15px;
-    }
+//   @include forTablet {
+//     width: 191px;
+//     height: 470px;
+//     margin-right: 15px;
+//     border-radius: 8px;
+//   }
 
-    @include forPc{
-        &:hover{
-            transform: scale(1.06);
-        }
+//   @include forPc {
+//     &:hover {
+//       transform: scale(1.06);
+//     }
 
-        &:hover .imgContainer{
-            height: 100%;
-            opacity: 0.3;
-        }
-    }
+//     &:hover .imgContainer {
+//       height: 100%;
+//       opacity: 0.3;
+//     }
+//   }
 
-    .imgContainer{
-        width: 100%;
-        height: 340px;
-        position: absolute;
-        transition: 0.3s all ease-out;
-        
-        @include forTablet {
-            height: 170px;
-            
-        }
-    }
+//   .imgContainer {
+//     width: 100%;
+//     height: 340px;
+//     position: absolute;
+//     transition: 0.3s all ease-out;
+//     border-radius: 8px 8px 0 0;
 
-    .infoContainer{
-        position: absolute;
-        bottom: 12px;
-        left: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    
+//     @include forTablet {
+//       height: 406px;
 
-        .projectTitle{text-transform: uppercase;
-            font-size: 10px;
-            opacity: 0.8;
-            padding-bottom: 8px;
+//     }
+//   }
 
-        }
+//   .infoContainer {
+//     position: absolute;
+//     bottom: 12px;
+//     left: 10px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: flex-start;
 
-        .projectName{
-            font-size: 15px;
-        }
-    }
-}
 
-#card_1 {
-    .imgContainer {
-        background-position: top;
-        background-size: cover;
-        background-image: url("../../images/wedding.jpg");
-    }
-}
+//     .projectTitle {
+//       text-transform: uppercase;
+//       font-size: 10px;
+//       opacity: 0.8;
+//       padding-bottom: 8px;
 
-#card_2 {
-    .imgContainer {
-        background-position: center;
-        background-size: cover;
-        background-image: url("../../images/malaga.jpg");
-    }
-}
+//     }
 
-#card_3 {
-    .imgContainer {
-        background-position: center;
-        background-size: cover;
-        background-image: url("../../images/rick.jpg");
-    }
-}
+//     .projectName {
+//       font-size: 15px;
+//     }
+//   }
+// }
 
-#card_4 {
-    .imgContainer {
-        background-position: center;
-        background-size: cover;
-        background-image: url("../../images/mother.jpg");
-    }
-}
+// #card_1 {
+//   .imgContainer {
+//     background-position: top;
+//     background-size: cover;
+//     background-image: url("../../images/mk_sunWedding.jpg");
+//   }
+// }
 
-#card_5 {
-    .imgContainer {
-        background-position: center;
-        background-size: cover;
-        background-image: url("../../images/cards.jpg");
-    }
-}
+// #card_2 {
+//   .imgContainer {
+//     background-position: top;
+//     background-size: cover;
+//     background-image: url("../../images/mk_ccWedding.jpg");
+//   }
+// }
 
-#card_6 {
-    .imgContainer {
-        background-position: center;
-        background-size: cover;
-        background-image: url("../../images/coronavirus.jpg");
-    }
-}
+// #card_3 {
+//   .imgContainer {
+//     background-position: center;
+//     background-size: cover;
+//     background-image: url("../../images/malaga.jpg");
+//   }
+// }
+
+// #card_4 {
+//   .imgContainer {
+//     background-position: center;
+//     background-size: cover;
+//     background-image: url("../../images/mk_cards.jpg");
+//   }
+// }
+
+// #card_5 {
+//   .imgContainer {
+//     background-position: center;
+//     background-size: cover;
+//     background-image: url("../../images/cards.jpg");
+//   }
+// }
+
+// #card_6 {
+//   .imgContainer {
+//     background-position: center;
+//     background-size: cover;
+//     background-image: url("../../images/coronavirus.jpg");
+//   }
+// }

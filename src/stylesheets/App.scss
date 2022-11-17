@@ -4,10 +4,12 @@
 @import './utils/mixins.scss';
 @import './layout/mainpage.scss';
 @import './layout/projects_section.scss';
+@import './layout/projects_section2.scss';
 @import './layout/project_cards.scss';
 @import './layout/about_section.scss';
 @import './layout/project_detail.scss';
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }

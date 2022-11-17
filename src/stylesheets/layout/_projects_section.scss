@@ -3,16 +3,21 @@
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
+  position: relative;
+  
 
-  @include forTablet{
+  @include forTablet {
     height: 100%;
   }
 
   @include forPc {
     background-image: url('../../images/cassete.jpg');
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .titleSectionContainer {
@@ -24,8 +29,11 @@
     margin-bottom: 22px;
 
     @include forPc {
-      width: 9%;
-      height: 60%;
+      position: absolute;
+      top: 30px;
+      left: 5%;
+      // width: 9%;
+      height: 100px;
       margin-left: 5%;
     }
 
@@ -35,30 +43,35 @@
       background-color: $secondaryColor;
 
       @include forPc {
-        width: 15px;
+        position: absolute;
+        border-right: 0px;
+        border-bottom: 10px;
+        height: 5px;
+        width: 400px;
+        left: 353px;
+        top: 68px;
+
       }
     }
 
     .titleProjects {
       font-size: 1.3rem;
       margin-left: 10px;
-      display: flex;
-      flex-direction: row;
       color: $secondaryColor;
       font-weight: 400;
       letter-spacing: 13px;
 
-      @include forTablet{
+      @include forTablet {
         font-size: 1.6rem;
         font-weight: 600;
         letter-spacing: 16px;
       }
 
       @include forPc {
-        font-size: 2.8rem;
-        flex-direction: column;
+        position: absolute;
+        font-size: 4rem;
         font-weight: 100;
-        letter-spacing: 0;
+        letter-spacing: 10px;
         font-weight: 500;
       }
     }
@@ -76,21 +89,61 @@
   .listProject {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 30px;
+    margin: 40px 0 40px 0;
+    
 
-    a{
+    a {
       color: black;
       display: flex;
       justify-content: center;
+
+      &:hover{
+        transform: scale(1.1);
+        img{
+          opacity:1;
+        }
+        
+      }
     }
 
-    @include forTablet{
+    @include forTablet {
       grid-template-columns: 1fr 1fr;
-      margin: auto;
     }
 
-    @include forPc{
-      grid-template-columns: 1fr 1fr 1fr;
+    @include forPc {
+      width: 60%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      grid-gap: 0px;
+      margin-left: 15%;
+    }
+  }
+
+  .morePorjectButton {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+
+    @include forPc {
+      margin-left: 15%;
+    }
+
+    &:hover{
+      color: black;
+    }
+
+    .plusIcon{
+      margin-right: 4px;
+      padding: 4px;
+      border: 1px solid;
+      border-radius: 25rem;
+      width: 11px;
+      height: 11px;
     }
   }
 }

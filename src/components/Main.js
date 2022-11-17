@@ -2,7 +2,7 @@ import React from 'react';
 import IconMail from '../icons/mail.png';
 import IconLinkedin from '../icons/linkedin.png';
 import IconGithub from '../icons/github.png';
-import IconTwitter from '../icons/twitter.png';
+// import IconTwitter from '../icons/twitter.png';
 
 const Main = () => {
     return (
@@ -37,9 +37,9 @@ const Main = () => {
                 <a title='github' href='https://github.com/Anavalca' target='blank'>
                     <img className='iconGithub' alt='icon github' src={IconGithub} />
                 </a>
-                <a title='twitter' href='https://twitter.com/Anita_amarillo' target='blank'>
+                {/* <a title='twitter' href='https://twitter.com/Anita_amarillo' target='blank'>
                     <img className='iconTwitter' alt='icon twitter' src={IconTwitter} />
-                </a>
+                </a> */}
             </div>
             <span className="scrollIcon">
                 {/* <a href="#"> */}

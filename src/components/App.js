@@ -6,7 +6,7 @@ import About from './About';
 export const App = () => {
 
   return (
-    <div className="App">
+    <div>
       <Main />
       <ProjectSection />
       <About />

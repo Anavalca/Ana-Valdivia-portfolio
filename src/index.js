@@ -17,7 +17,7 @@ const root = createRoot(rootElement);
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App/>,
     errorElement: <ErrorPage />,
   },
   {

@@ -3,47 +3,37 @@
     "id": 1,
     "name": "Wedding website",
     "title":"SPA",
-    "mockup":"../images/mk_wedding.jpg",
+    "mockup":"../images/mk_sunWedding.jpg",
     "description":"Professional wedding website.",
     "description2":"It includes information about the wedding, carousel galery, contact formulary, location link and a countdown timer.",
-    "tags": ["React", "Hooks", "JavaScript", "Leaftet", "SPA", "Sass","Responsive-design"],
-    "url": "https://boda-anatere-y-antonio.netlify.app/"
+    "tags": ["React", "JavaScript", "Taildwind CSS", "Leaftet", "AOS" ,"Responsive-design"],
+    "url": "https://bodacristinaycarlos.netlify.app/",
+    "githubUrl":"https://github.com/Anavalca/sun-wedding"
   },
   {
-      "id": 2,
-      "name": "Malaga Challenge",
-      "title":"Landing page",
-      "mockup":"../images/mk_malaga.jpg",
-      "description":"Finalist project in the hackathon of Malaga Tourism Challenge 2020.",
-      "description2":"Minimalist landing page where you can see the teaser of the campaign and the main characters.",
-      "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass","Responsive-design"],
-      "url": "https://anavalca.github.io/MalagaChallenge/",
-      "githubUrl":"https://github.com/Anavalca/MalagaChallenge"
+    "id": 2,
+    "name": "Malaga Challenge",
+    "title":"Landing page",
+    "mockup":"../images/mk_malaga.jpg",
+    "description":"Finalist project in the hackathon of Malaga Tourism Challenge 2020.",
+    "description2":"Minimalist landing page where you can see the teaser of the campaign and the main characters.",
+    "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass","Responsive-design"],
+    "url": "https://anavalca.github.io/MalagaChallenge/",
+    "githubUrl":"https://github.com/Anavalca/MalagaChallenge"
   },
   {
-      "id": 3,
-      "name": "Rick & Morty",
-      "title":"Character finder",
-      "mockup":"../images/mk_morty.jpg",
-      "description":"Character Finder from the TV show Rick & Morty.",
-      "description2":"A funny way to filter the characters obtained from an api.",
-      "tags": ["React", "JavaScript", "API", "Grid", "Sass", "Responsive-design"],
-      "url": "https://anavalca.github.io/Character-Searcher-Rick-Morty-React/",
-      "githubUrl":"https://github.com/Anavalca/Character-Searcher-Rick-Morty-React"
+    "id": 3,
+    "name": "Wedding website",
+    "title":"SPA",
+    "mockup":"../images/mk_ccWedding.jpg",
+    "description":"Professional wedding website.",
+    "description2":"It includes information about the wedding, carousel galery, contact formulary, location link and a countdown timer.",
+    "tags": ["React", "JavaScript", "Sass", "Swiper", "Leaftet", "Responsive-design"],
+    "url": "https://boda-anatere-y-antonio.netlify.app/",
+    "githubUrl":"https://github.com/Anavalca/wedding-CC"
   },
   {
       "id": 4,
-      "name": "Mother of Components",
-      "title":"Card generator",
-      "mockup":"../images/mk_mother.jpg",
-      "description":"Card generator wiht dark mode inspired by Game of Thrones.",
-      "description2":"Personalize your card with colors, photo, pictures and your personal data through an interactive form. Also you can share the card in Twitter!",
-      "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass", "Responsive-design"],
-      "url": "https://anavalca.github.io/Card-Generator-Game-Of-Thrones-React/#/",
-      "githubUrl":"https://github.com/Anavalca/Card-Generator-Game-Of-Thrones-React"
-  },
-  {
-      "id": 5,
       "name": "Emparejados",
       "title":"Cards memory game",
       "mockup":"../images/mk_cards.jpg",
@@ -52,16 +42,5 @@
       "tags": ["JavaScript", "DOM AVANZADO", "HTML5", "CSS3", "Responsive-design"],
       "url": "https://anavalca.github.io/cards-memory-game/",
       "githubUrl":"https://github.com/Anavalca/cards-memory-game"
-  },
-  {
-      "id": 6,
-      "name": "Coronavirus TV",
-      "title":"TV shows finder ",
-      "mockup":"../images/mk_coronavirus.jpg",
-      "description":"TV shows finder generated with the data of an api.",
-      "description2":"Offers the functionality to save and delete favourites and search shows by characters.",
-      "tags": ["JavaScript", "API", "DOM AVANZADO", "localstorage", "Flexbox", "Sass"],
-      "url": "https://anavalca.github.io/Searcher-TV-Series-API-Javascript/",
-      "githubUrl":"https://github.com/Anavalca/Searcher-TV-Series-API-Javascript"
   }
 ]

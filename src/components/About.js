@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../files/CV_ANA_VALDIVIA_CANO.pdf'
+import CV from '../files/ana_valdivia_cano_cv.pdf'
 
 const About = () => {
 
@@ -11,11 +11,9 @@ const About = () => {
         <section className='aboutContainer'>
             <div className='infoContainer'>
                 <div className='line'></div>
-                <p className='description'>Passionate about <span className='strongFont'>creative process</span> and design.</p>
+                <p className='description'>Passionate about <span className='strongFont'>creative process</span> and <span className='strongFont'>design</span>. I have more than 4 years experience in audiovisual comunications, graphic design and marketing.</p>
                 <p className='description'>
-                    I have more than 4 years experience in audiovisual comunications, graphic design and marketing.</p>
-                <p className='description'>
-                    Now i'm working as a <span className='strongFont'>frontend developer</span>, love creating websites and interested in UI/UX.</p>
+                Now I work as a  <span className='strongFont'>frontend developer</span> for 2 years in companies like BBVA and Vodafone. Love creating websites and interested in UI/UX.</p>
                 <div className='line'></div>
                 <a className='buttonCV' href={CV} download="CV Ana Valdivia"> Download CV</a>
             </div>

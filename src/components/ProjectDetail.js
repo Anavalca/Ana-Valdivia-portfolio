@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   const { projectId } = useParams();
 
   const goPrevProjectDetail = projectId > 1 ? `/project/${parseInt(projectId) - 1}` : ''
-  const goNextProjectDetail = projectId < 6 ? `/project/${parseInt(projectId) + 1}` : ''
+  const goNextProjectDetail = projectId < 4 ? `/project/${parseInt(projectId) + 1}` : ''
 
   const { mockup, name, id, tags, description, description2, url, githubUrl } = projects[projectId - 1];
   return (
@@ -49,8 +49,8 @@ const ProjectDetails = () => {
           <span className='iconHome'>Home</span>
         </Link>
         <Link to={goNextProjectDetail}>
-          <span className={`next ${id === 6 ? 'disabled' : ''}`}>next project</span>
-          <i className={`fas fa-chevron-right ${id === 6 ? 'hidden' : ''}`}></i>
+          <span className={`next ${id === 4 ? 'disabled' : ''}`}>next project</span>
+          <i className={`fas fa-chevron-right ${id === 4 ? 'hidden' : ''}`}></i>
         </Link>
       </div>
     </div >
