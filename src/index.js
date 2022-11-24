@@ -9,21 +9,18 @@ import {
 import { App } from './components/App';
 import './stylesheets/App.scss';
 import ProjectDetails from './components/ProjectDetail';
-import ErrorPage from "./components/Error-page";
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/*",
     element: <App/>,
-    errorElement: <ErrorPage />,
   },
   {
     path: "project/:projectId",
     element: <ProjectDetails />,
-    errorElement: <ErrorPage />,
   },
 ]);
 
