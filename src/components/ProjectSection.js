@@ -1,7 +1,7 @@
 import React from 'react';
+import projects from '../services/projects.json'
 import Project2 from './Project2';
 import { Link } from 'react-router-dom';
-import projects from '../services/projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faPlus } from '@fortawesome/free-solid-svg-icons'
 
@@ -17,7 +17,7 @@ const ProjectSection = () => {
         <div className='decorationTitle2'></div>
       </div>
       <div className="listProject">
-        {projects.map((project) =>
+      {projects.map((project) =>
           <Link key={project.id} to={`/project/${project.id}`}>
             <li className="projectLi" key={project.id} id={`card_${project.id}`}>
               <Project2

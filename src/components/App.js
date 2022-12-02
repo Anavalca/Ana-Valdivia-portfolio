@@ -1,17 +1,20 @@
 import React from 'react';
-import Main from './Main';
-import ProjectSection from './ProjectSection';
-import About from './About';
+import '../stylesheets/App.scss';
+import Home from './Home';
+import ProjectDetails from './ProjectDetail';
+import { Route, Routes } from 'react-router-dom';
 
-export const App = () => {
+const App = () => {
 
   return (
     <div>
-      <Main />
-      <ProjectSection />
-      <About />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/project/:id" element={<ProjectDetails />} />
+      </Routes>
     </div>
   );
+
 }
 
-
+export default App;
