@@ -1,11 +1,3 @@
-// import React from 'react';
-// // import GithubIcon from '../icons/github.png';
-// import WebsiteIcon from '../icons/web2.png';
-// import projects from '../services/projects.json';
-// import { Link, useParams } from 'react-router-dom';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
 import React from 'react';
 import IconGithub from '../icons/github.png';
 import IconWebsite from '../icons/web2.png';
@@ -44,7 +36,6 @@ const ProjectDetails = () => {
             </a>
             {githubUrl && (
               <a className='buttonGithub' title='Github' href={githubUrl} target='blank'>
-                {/* <FontAwesomeIcon className='iconGithub' alt='github icon' icon={faGithub} /> */}
                 <img className='iconGithub' alt='icon github' src={IconGithub} />
                 <span className='titleVisitGithub'>Github repository</span>
               </a>

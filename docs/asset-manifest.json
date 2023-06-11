@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "./static/css/main.cd40472b.css",
-    "main.js": "./static/js/main.11f2514a.js",
-    "static/media/ana_valdivia_cano_cv.pdf": "./static/media/ana_valdivia_cano_cv.7115e4e157823b2dd737.pdf",
+    "main.js": "./static/js/main.9311d7dd.js",
     "static/media/carrete_Pc.jpg": "./static/media/carrete_Pc.e5902c6ce41cc455dd03.jpg",
+    "static/media/cv_ana_valdivia_cano.pdf": "./static/media/cv_ana_valdivia_cano.d3581019815ec38fc3b3.pdf",
     "static/media/cassete.jpg": "./static/media/cassete.dcf1588526fabf052137.jpg",
     "static/media/cassete_m2.jpg": "./static/media/cassete_m2.b96183e7090dde8c7b82.jpg",
     "static/media/carrete_Tablet.jpg": "./static/media/carrete_Tablet.79e4d48c7be6e4df3ef0.jpg",
@@ -13,10 +13,10 @@
     "static/media/github.png": "./static/media/github.235f035f3a7a91123283.png",
     "index.html": "./index.html",
     "main.cd40472b.css.map": "./static/css/main.cd40472b.css.map",
-    "main.11f2514a.js.map": "./static/js/main.11f2514a.js.map"
+    "main.9311d7dd.js.map": "./static/js/main.9311d7dd.js.map"
   },
   "entrypoints": [
     "static/css/main.cd40472b.css",
-    "static/js/main.11f2514a.js"
+    "static/js/main.9311d7dd.js"
   ]
 }
