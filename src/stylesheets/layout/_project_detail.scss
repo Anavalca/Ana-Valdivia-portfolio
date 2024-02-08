@@ -4,21 +4,27 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 6% 0 6% 0;
+
+  @include forMobile {
+    justify-content: space-between;
+    padding: 12% 0 12% 0;
+  }
 
   @include forPc {
     justify-content: flex-start;
+    padding: 0;
   }
-
-
 
   .projectDetailContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    gap: 16px;
 
     @include forPc {
+      gap: 0;
       height: calc(100vh - 7vh);
       flex-direction: row;
       justify-content: space-around;

@@ -5,21 +5,21 @@
     "title":"SPA",
     "mockup":"../images/mk_sunWedding.jpg",
     "description":"Professional design wedding website that contains information about the event.",
-    "description2":"It includes a countdown timer, location popup with map, hotels filter and a contact formulary.",
-    "tags": ["React", "JavaScript", "Taildwind CSS", "Leaftet", "AOS" ,"Responsive-design"],
+    "description2":"It includes a countdown timer, location popup with map, hotels filter and a contact form.",
+    "tags": ["React", "JS", "Taildwind", "Leaftet", "AOS"],
     "url": "https://bodacristinaycarlos.netlify.app/",
     "githubUrl":"https://github.com/Anavalca/sun-wedding"
   },
   {
     "id": 2,
-    "name": "Malaga Challenge",
-    "title":"Landing page",
-    "mockup":"../images/mk_malaga.jpg",
-    "description":"Finalist project in the hackathon of Malaga Tourism Challenge 2020.",
-    "description2":"Minimalist landing page where you can see the teaser of the campaign and the main characters.",
-    "tags": ["React", "JavaScript", "HTML5", "CSS3", "Sass","Responsive-design"],
-    "url": "https://anavalca.github.io/MalagaChallenge/",
-    "githubUrl":"https://github.com/Anavalca/MalagaChallenge"
+    "name": "Task board",
+    "title":"APP",
+    "mockup":"../images/mk_app.jpg",
+    "description":"Cabecita Loca is a mobile application.",
+    "description2":"Create reminders, save them to your dashboard, and receive notifications or export them to your Google calendar.",
+    "tags": ["React-native", "JavaScript", "Expo"],
+    "url": "https://play.google.com/store/apps/details?id=com.adraceta.cabecitaloca&hl=es_PA&gl=US",
+    "githubUrl":"https://github.com/Anavalca/cabecita-loca-app"
   },
   {
     "id": 3,
@@ -28,7 +28,7 @@
     "mockup":"../images/mk_ccWedding.jpg",
     "description":"Professional wedding website.",
     "description2":"It includes information about the wedding, carousel galery, contact formulary, location link and a countdown timer.",
-    "tags": ["React", "JavaScript", "Sass", "Swiper", "Leaftet", "Responsive-design"],
+    "tags": ["React", "Sass", "Swiper", "Leaftet", "Responsive"],
     "url": "https://boda-cris-y-curro.netlify.app/",
     "githubUrl":"https://github.com/Anavalca/wedding-CC"
   },
@@ -39,7 +39,7 @@
       "mockup":"../images/mk_cards.jpg",
       "description":"Memory game based on matching cards.",
       "description2":"Choose the level of difficulty and the topic theme. You also have a chronometer and a panel with the score.",
-      "tags": ["JavaScript", "DOM AVANZADO", "HTML5", "CSS3", "Responsive-design"],
+      "tags": ["JavaScript", "HTML5", "CSS3", "Responsive"],
       "url": "https://anavalca.github.io/cards-memory-game/",
       "githubUrl":"https://github.com/Anavalca/cards-memory-game"
   }
